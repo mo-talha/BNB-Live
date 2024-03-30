@@ -1,2 +1,7 @@
 This script is used to scrape creators data from binance live.
 It uses python and selenium to do the job.
+The script is divided into two functions the first function convert_followers_to_int converts the followers count which is in a string ex:18.2k to an integer 18,200.
+The main function getStreamerData clicks into a live category and starts to get the creators data like followers, id, bio, and verified or not one creator after the other.
+The main function tries to find a div next to the user name if the div is present then it means its a verified account else it is not.
+Finally this data is converted into a df and the df is saved as a .csv.
+This data was used by the marketing team to reach out to different creators based on their following for promotions.
