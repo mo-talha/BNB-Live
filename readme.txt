@@ -4,3 +4,4 @@
 4. The main function tries to find a div next to the user name if the div is present then it means its a verified account else it is not.
 5. Finally this data is converted into a df and the df is saved as a .csv.
 6. This data was used by the marketing team to reach out to different creators based on their following for promotions.
+8. You can check end result by downloading the streamers_data.xlsx file. 
